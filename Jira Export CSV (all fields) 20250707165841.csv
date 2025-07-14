@@ -1,0 +1,126 @@
+Summary,Issue key,Issue id,Issue Type,Status,Project key,Project name,Project type,Project lead,Project lead id,Project description,Priority,Resolution,Assignee,Assignee Id,Reporter,Reporter Id,Creator,Creator Id,Created,Updated,Last Viewed,Resolved,Due date,Votes,Description,Environment,Watchers,Watchers Id,Original estimate,Remaining Estimate,Time Spent,Work Ratio,Σ Original Estimate,Σ Remaining Estimate,Σ Time Spent,Security Level,Custom field (Issue color),Custom field (Rank),Custom field (Start date),Custom field (Story point estimate),Custom field (Team),Custom field (Vulnerability),Custom field (development),Status Category,Status Category Changed
+MAINTENANCE- Searching is not functioning.,SCRUM-11,10010,Bug,To Do,SCRUM,OrangeHRM,software,Nitish MIttal,712020:55afc49d-c96f-47fb-b5a2-0f3cfe4e78c2,Your first project,Medium,,,,Nitish MIttal,712020:55afc49d-c96f-47fb-b5a2-0f3cfe4e78c2,Nitish MIttal,712020:55afc49d-c96f-47fb-b5a2-0f3cfe4e78c2,07/Jul/25 4:46 PM,07/Jul/25 4:46 PM,,,,0,"Summary:
+
+The searching operation is not working always showing error.
+
+Steps to Reproduce:
+
+# Navigate to the website with valid URL. 
+# Login with valid username and password.
+# Click on login button. 
+# Click on the Maintenance module.  
+# Login the maintenance module with valid details 
+# Click on Purge records field in the maintenance module.
+# Fill the details in the search box.
+# Click on the search button.
+
+Expected Result:
+
+The employee with same name should be searched.
+
+Actual Result:
+
+The result is not being searched.
+
+Environment:
+
+Edge browser.",,Nitish MIttal,712020:55afc49d-c96f-47fb-b5a2-0f3cfe4e78c2,,,,,,,,,,0|i0000v:,,,,,,To Do,07/Jul/25 4:46 PM
+PIM- The search function of the module is not searching even the data is correct.,SCRUM-10,10009,Bug,To Do,SCRUM,OrangeHRM,software,Nitish MIttal,712020:55afc49d-c96f-47fb-b5a2-0f3cfe4e78c2,Your first project,Medium,,,,Nitish MIttal,712020:55afc49d-c96f-47fb-b5a2-0f3cfe4e78c2,Nitish MIttal,712020:55afc49d-c96f-47fb-b5a2-0f3cfe4e78c2,07/Jul/25 4:36 PM,07/Jul/25 4:36 PM,,,,0,"Summary: 
+
+The search function is not working properly although the data is correct.
+
+Steps to Reproduce:
+
+# Navigate to the website with valid URL.
+# Login with valid username and password. 
+# Click on login button.
+# Click on Leave Module 
+# Fill all the details. 
+# Click on search button.
+
+Expected Result:
+
+Searching operation should search the result according to the data.
+
+Actual Result:
+
+The employee even with valid details not being searched.
+
+Environment:
+
+Edge Browser.",,Nitish MIttal,712020:55afc49d-c96f-47fb-b5a2-0f3cfe4e78c2,,,,,,,,,,0|i0000n:,,,,,,To Do,07/Jul/25 4:36 PM
+ADMIN- Delete button is not working ,SCRUM-9,10008,Bug,To Do,SCRUM,OrangeHRM,software,Nitish MIttal,712020:55afc49d-c96f-47fb-b5a2-0f3cfe4e78c2,Your first project,Lowest,,,,Nitish MIttal,712020:55afc49d-c96f-47fb-b5a2-0f3cfe4e78c2,Nitish MIttal,712020:55afc49d-c96f-47fb-b5a2-0f3cfe4e78c2,07/Jul/25 4:20 PM,07/Jul/25 4:20 PM,,,,0,"NOTE:  After re-testing, the feature works as expected. The initial failure was due to incorrect test data. Marking this bug as Invalid.”
+
+
+
+
+
+Summary:
+
+Delete button is not working although it is showing “Cannot Be Deleted”.
+
+Steps to Reproduce:
+
+#  Navigate to the website with valid url.
+#  Login with valid username and password.
+# Click on login button.
+# Click on Admin module.
+# Fill all the information of the employee.
+# Checkmark the desired employee.
+# Click on delete button.
+
+Expected Result:
+
+The employee should get deleted from the list.
+
+Actual Result:
+
+An error message of “Cannot be deleted” visible on the screen.",,Nitish MIttal,712020:55afc49d-c96f-47fb-b5a2-0f3cfe4e78c2,,,,,,,,,,0|i0000f:,,,,,,To Do,07/Jul/25 4:20 PM
+Login-Invalid username entered not showing Invalid Credentials ,SCRUM-8,10007,Bug,To Do,SCRUM,OrangeHRM,software,Nitish MIttal,712020:55afc49d-c96f-47fb-b5a2-0f3cfe4e78c2,Your first project,Medium,,,,Nitish MIttal,712020:55afc49d-c96f-47fb-b5a2-0f3cfe4e78c2,Nitish MIttal,712020:55afc49d-c96f-47fb-b5a2-0f3cfe4e78c2,07/Jul/25 3:52 PM,07/Jul/25 3:52 PM,,,10/Jul/25 12:00 AM,0,"Summary:
+
+Invalid username is used no message of “INVALID CREDENTIAL” is visible.
+
+Steps to Reproduce:
+
+# Open the correct URL.
+# Enter username.
+# Click on forgot your password button.
+# Enter the wrong username in the form.
+# Click on reset password button.
+
+Expected Result:
+
+The error message of invalid username should visible.
+
+Actual Result:
+
+No error message is visible the user is directed to reset password page.
+
+Environment:
+
+Edge browser.",,Nitish MIttal,712020:55afc49d-c96f-47fb-b5a2-0f3cfe4e78c2,,,,,,,,,,0|i00007:,,,,,,To Do,07/Jul/25 3:52 PM
+Login – Forgot password email not sent after reset request,SCRUM-6,10005,Bug,To Do,SCRUM,OrangeHRM,software,Nitish MIttal,712020:55afc49d-c96f-47fb-b5a2-0f3cfe4e78c2,Your first project,Medium,,,,Nitish MIttal,712020:55afc49d-c96f-47fb-b5a2-0f3cfe4e78c2,Nitish MIttal,712020:55afc49d-c96f-47fb-b5a2-0f3cfe4e78c2,07/Jul/25 3:20 PM,07/Jul/25 3:20 PM,07/Jul/25 3:20 PM,,10/Jul/25 12:00 AM,0,"Summary:
+
+Password reset link is not sent on the E-mail while the user id is valid and fully working.
+
+Steps to Reproduce:
+
+# Open the correct URL.
+# Enter username 
+# Click Forgot Password
+# Enter username again.
+# Check the E-mail Inbox.
+
+Expected Result:
+
+A password reset email should be received within a few minutes containing the reset link.
+
+Actual Result:
+
+No password reset mail is received even after waiting 15 minutes.
+
+Environment:
+
+Edge browser
+
+Attachments:",,Nitish MIttal,712020:55afc49d-c96f-47fb-b5a2-0f3cfe4e78c2,,,,,,,,,,0|hzzzzz:,,,,,,To Do,07/Jul/25 3:20 PM
